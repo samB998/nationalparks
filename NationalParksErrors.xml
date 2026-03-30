@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NationalPark>
+<NationalPark xmlns="https://raw.githubusercontent.com/samB998/nationalparks/main"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://raw.githubusercontent.com/samB998/nationalparks/main NationalParks.xsd">
 	<NationalPark Rating="4.9">
 		<Name>Grand Canyon</Name>
 		<Name>Grand Canyon South</Name>
