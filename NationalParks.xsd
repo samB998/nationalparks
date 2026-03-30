@@ -4,6 +4,10 @@
             targetNamespace="https://raw.githubusercontent.com/samB998/nationalparks/main"
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">National Parks Directory</xsd:documentation>
+	</xsd:annotation>
+
 	<xsd:element name="NationalParks" type="NationalParksType"/>
 	<xsd:complexType name="NationalParksType">
 		<xsd:sequence>
